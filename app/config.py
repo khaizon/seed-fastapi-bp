@@ -8,6 +8,8 @@ class Settings(BaseSettings):
     db_port: str
     db_name: str
 
+    root_path: str
+
     secret_key: str
     algorithm: str
     access_token_expire_minutes: int
